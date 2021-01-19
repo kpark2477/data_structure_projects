@@ -8,7 +8,8 @@ Udacity 자료구조 알고리즘 코스의 기본 자료구조 프로젝트입�
 
 문제 내용은 아래와 같습니다.
 
-##1.Least Recently Used Cache
+## 1.Least Recently Used Cache
+
 We have briefly discussed caching as part of a practice problem while studying hash maps.
 The lookup operation (i.e., get()) and put() / set() is supposed to be fast for a cache memory.
 While doing the get() operation, if the entry is found in the cache, it is known as a cache hit.
@@ -27,26 +28,26 @@ If the cache is full, you must write code that removes the least recently used e
 All operations must take O(1) time.
 For the current problem, you can consider the size of cache = 5.
 
-##2.File recursion
+## 2.File recursion
 For this problem, the goal is to write code for finding all files under a directory
 (and all directories beneath it) that end with ".c"
 
-##3.Huffman coding
+## 3.Huffman coding
 implement huffman coding and decoding.
 
-##4.Active directory
+## 4.Active directory
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such.
 Where User is represented by str representing their ids.
 Write a function that provides an efficient look up of whether the user is in a group.
 
-##5.Blockchain
+## 5.Blockchain
 A Blockchain is a sequential chain of records, similar to a linked list.
 Each block contains some information and how it is connected related to the other blocks in the chain.
 Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. 
 For our blockchain we will be using a SHA-256 hash, the Greenwich Mean Time when the block was created, and text strings as the data.
 Use your knowledge of linked lists and hashing to create a blockchain implementation.
 
-##6.Union and Intersection of two linked list.
+## 6.Union and Intersection of two linked list.
 Your task for this problem is to fill out the union and intersection functions.
 The union of two sets A and B is the set of elements which are in A, in B, or in both A and B.
 The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
