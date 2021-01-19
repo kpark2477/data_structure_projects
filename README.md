@@ -1,6 +1,7 @@
 # data_structure_projects
 Udacity 자료구조 알고리즘 코스의 기본 자료구조 프로젝트입니다.
 총 6가지 문제로 구성이 되어있고, 주어진 문제에 맞추어 자료구조를 만드는 문제입니다.
+(arrays, stacks, queue, recursion, tree, hashmap 등의 개념을 다룹니다.)
 
 
 개별문제 해답에 대한 디자인과 time complexity는 
